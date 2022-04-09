@@ -140,7 +140,7 @@ sidebar:
 # Sidebar Avatar
 avatar:
   # Replace the default image and set the url here.
-  url: #/images/avatar.gif
+  url: /images/icon.jpg
   # If true, the avatar will be displayed in circle.
   rounded: false
   # If true, the avatar will be rotated with the cursor.
@@ -272,7 +272,7 @@ reward_settings:
   #comment: Buy me a coffee
 
 reward:
-  #wechatpay: /images/wechatpay.png
+  wechatpay: /images/wechatpay.jpg
   #alipay: /images/alipay.png
   #paypal: /images/paypal.png
   #bitcoin: /images/bitcoin.png
@@ -575,6 +575,7 @@ comments:
   # Choose a comment system to be displayed by default.
   # Available values: disqus | disqusjs | changyan | livere | gitalk | utterances
   active:
+
   # Setting `true` means remembering the comment system selected by the visitor.
   storage: true
   # Lazyload all comment systems.
